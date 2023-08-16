@@ -1,0 +1,24 @@
+Repo Link: https://github.com/Nisal-Sashmitha/Deep-Learning-Lab-2
+
+1.
+
+As we increase the number of hidden nodes in a neural network, the model's capacity to capture complex patterns in the data increases.
+
+2.
+
+a. Initial Improvement Phase:
+
+As the number of hidden nodes increases from a small value, the model's performance tends to improve.
+This is because the neural network gains more capacity to capture patterns and relationships in the data.
+
+b. Saturation Phase:
+
+After a certain point, increasing the number of hidden nodes might not significantly impact accuracy.
+The network reaches a saturation point where it has already captured most of the important patterns in the data.
+Further increasing hidden nodes doesn't lead to substantial improvements, and the accuracy plateaus.
+
+c. Overfitting Phase:
+
+If you continue to increase the number of hidden nodes beyond the saturation point, the risk of overfitting increases.
+The model becomes highly complex and starts fitting the noise in the training data.
+This results in reduced performance on new, unseen data (test/validation data), and accuracy might start to decrease.
